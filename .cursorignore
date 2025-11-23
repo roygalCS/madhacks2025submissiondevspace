@@ -1,0 +1,11 @@
+# Cursor ignore file
+# .env is explicitly NOT ignored (allowed)
+!.env
+!.env.local
+!.env.*.local
+
+# Ignore other common files
+node_modules/
+dist/
+*.log
+.DS_Store
